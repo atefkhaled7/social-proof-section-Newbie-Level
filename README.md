@@ -4,4 +4,8 @@
 
 ## Welcome! 👋
 
-Learned alot about grid system in this challenge
+Learned alot about grid system in this challenge.
+
+Responsive preview because It's NOT working on github for some reason.
+
+![responsive is NOT working on github for some reason](./images/Screenshot.png)
