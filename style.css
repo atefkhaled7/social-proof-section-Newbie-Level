@@ -143,7 +143,58 @@ width: 31rem;
 }
 
 
-
+@media screen and (max-width: 768px) {
+  body{
+    padding: 20px;
+  }
+  .grid{
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .main-sec,
+  .reviews{
+    grid-column: auto;
+    grid-row: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .main-sec p{
+    width: 100%;
+    text-align: center;
+  }
+  .main-sec h1{
+    width: 100%;
+    text-align: center;
+  }
+  .reviews{
+    position: static;
+    width: 100%;
+  }
+  .rect1{
+    width: 100%;
+  }
+  .rect2{
+    margin-left: 0px;
+    width: 100%;
+  }
+  
+  .rect3{
+    margin-left: 0px;
+    width: 100%;
+  }
+  .card{
+    width: 100%;
+  }
+  .card2{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  
+  .card3{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+}
 
 
 
