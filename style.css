@@ -1,0 +1,152 @@
+:root{
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+  --White: hsl(0, 0%, 100%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  /* height: 100vh; */
+  font-family: "League Spartan", sans-serif;
+  background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+  background-position: left -20px top -30px, right 30px bottom -250px;
+  background-repeat: no-repeat;
+  padding: 70px 150px;
+}
+
+.grid{
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  height: 400px;  
+  align-items: center;
+}
+
+.main-sec,
+.reviews{
+  grid-row: 1;
+  grid-column: span 2;
+  padding: 10px;
+}
+
+.main-sec{
+width: 31rem;
+}
+
+.main-sec h1{
+  color: var(--Very-Dark-Magenta);
+  font-weight: 800;
+  font-size: 3.2rem;
+  margin-bottom: 20px;
+  width: 27rem;
+}
+
+.main-sec p{
+  color: var(--Dark-Grayish-Magenta);
+  font-weight: 500;
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.reviews{
+  display: flex;
+  flex-direction: column;
+  /* margin-right: 460px; */
+  position: relative;
+  right: 31%;
+}
+
+.reviews img{
+  display: inline;
+}
+
+.reviews span{
+  margin-right: 10px;
+}
+
+.rect{
+  color: var(--Very-Dark-Magenta);
+  font-weight: 700;
+  margin-bottom: 15px;
+  height: 60px;
+  width: 450px;
+  background-color: var(--Light-Grayish-Magenta);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.rect p{
+  margin-left: 10px;
+}
+
+.rect2{
+  margin-left: 30px;
+}
+
+.rect3{
+  margin-left: 60px;
+}
+
+.card{
+  background-color: var(--Very-Dark-Magenta);
+  border-radius: 10px;
+  height: 250px;
+  width: 370px;
+  display: flex;
+  padding: 40px 30px;
+}
+
+.card-content{
+  margin-left: 20px;
+}
+
+.card img{
+  border-radius: 50%;
+  height: 40px;
+  width: auto;
+}
+
+.card h1{
+  color: white;
+  font-size: 18px;
+}
+
+.card .title{
+  color: var(--Soft-Pink);
+}
+
+.card .desc{
+  color: white;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+
+.card2{
+  margin-top: 30px;
+  margin-left: 12px;
+}
+
+.card3{
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
